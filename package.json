@@ -1,7 +1,7 @@
 {
     "name": "todo-app",
     "version": "0.1.0",
-    "homepage": "https://maurofilippifarmar.github.io/my-todo",
+    "homepage": "https://maurofilippifarmar.github.io/todo-app",
     "private": true,
     "dependencies": {
         "gh-pages": "^5.0.0",
