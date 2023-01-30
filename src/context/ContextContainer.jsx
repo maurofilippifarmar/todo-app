@@ -43,10 +43,10 @@ const ContextContainer = (props) => {
     };
 
     useEffect(() => {
-        //const myTasks = JSON.parse(localStorage.getItem('todos'));
-         //if (myTasks) {
+        const myTasks = JSON.parse(localStorage.getItem('todos'));
+         if (myTasks) {
              dispatch({type: 'ONLOAD'})
-        // }
+         }
     }, []);
 
     return (
