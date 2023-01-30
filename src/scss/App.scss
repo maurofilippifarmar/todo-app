@@ -1,0 +1,30 @@
+@use './partials/variables' as *;
+@use './partials/help';
+@use './partials/navigation';
+@use './partials/todo';
+@use './partials/notfound';
+
+.app {
+    height: 100vh;
+    background: $mainBg;
+    color: $mainTxt;
+    overflow: scroll;
+
+    .btn {
+        border: none;
+        font-size: 1.2rem;
+        padding: 10px;
+        border-radius: 20px;
+        width: 70px;
+        background: $btnBg;
+        color: $mainTxt;
+        font-weight: 700;
+        cursor: pointer;
+        &:focus {
+            outline: none;
+        }
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}

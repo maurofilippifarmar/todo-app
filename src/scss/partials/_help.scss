@@ -1,0 +1,14 @@
+@use './variables' as *;
+
+.help {
+    margin: 2% 5%;
+    font-size: 1.2rem;
+    h4 {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+    ol {
+        padding-left: 5px;
+        
+    }
+}
